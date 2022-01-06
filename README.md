@@ -18,10 +18,6 @@ Users should be able to:
 ![Alt Text](src/images/screenshots/03.png "03")
 ![Alt Text](src/images/screenshots/04.png "04")
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-
 ## My process
 
 ### Built with
