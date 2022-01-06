@@ -37,3 +37,33 @@ export const InputUrl = styled.input`
     outline: none;
     color: ${colors.primary[1]};
 `
+
+export const ShortedLinks = styled.div`
+    width: 100%;
+    margin-top: -3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`
+export const ShortedLink = styled.div`
+    width: 100%;
+    padding: 15px 20px 15px 30px;
+    display: grid;
+    grid-template-columns: 8fr 3fr 1fr;
+    grid-gap: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 7px;
+`
+
+export const Default = styled.p`
+    display: flex;
+    align-items: center;
+    color: ${colors.neutral[3]};
+`
+export const Shorted = styled.p`
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: ${colors.primary[0]};
+`

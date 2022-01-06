@@ -4,7 +4,7 @@ import colors from '../../Colors'
 export const Button = styled.button`
     padding: 9px 30px;
     color: #fff;
-    background: ${colors.primary[0]};
+    background: ${props=>props.isCopied?colors.primary[1]:colors.primary[0]};
     border-radius: ${props=>props.changeTo.shorten?'7px':'100px'};
     outline: none;
     border: none;

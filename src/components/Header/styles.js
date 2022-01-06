@@ -27,6 +27,11 @@ export const Container = styled.div`
         justify-content: center;
         color: ${colors.neutral[1]};
         margin: 0 15px;
+        transition: .3s ease-in-out;
+
+        &:hover{
+            color: ${colors.neutral[3]};
+        }
     }
 `
 
@@ -38,5 +43,10 @@ export const SignButtons = styled.div`
         color: ${colors.neutral[1]};
         margin: 0 30px;
         font-size: .85rem;
+        transition: .3s ease-in-out;
+
+        &:hover{
+            color: ${colors.neutral[3]};
+        }
     }
 `
